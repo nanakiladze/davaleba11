@@ -1,0 +1,39 @@
+@media screen and (max-width: 992px ){
+   .main {
+      display: block;
+   }
+   .left, .right {
+      display: unset;
+   }
+   .row {
+      height: auto;
+      display: block;
+   }
+   .row div{
+      /* height: 100px; */
+      margin: 10px 0;
+     
+   }
+}
+
+/* @media screen and (min-width: 1440px ){
+   body{
+      background-color: grey;
+   }
+} */
+@media screen and (max-width: 505px ){
+   .main {
+      display: block;
+   }
+   .left, .right {
+      display: unset;
+   }
+   .row {
+      height: auto;
+      display: block;
+   }
+   .row div{
+      /* height: 100px; */
+      margin: 10px 0;
+   }
+}
